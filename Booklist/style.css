@@ -1,0 +1,145 @@
+body {
+  font-family: "Playfair Display", serif;
+  background-color: #97c1a9;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 70px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 2.5px;
+  color: #9d579d;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  font-family: "Source Sans 3";
+}
+
+form label,
+form input,
+form select,
+form button {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+form textarea {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input,
+form select {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  color: grey;
+  font-family: inherit;
+}
+
+form select {
+  cursor: pointer;
+}
+
+form button {
+  padding: 10px;
+  background-color: #97c1a9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+form button:hover {
+  background: rgb(203, 170, 203);
+  background: radial-gradient(
+    circle,
+    rgba(203, 170, 203, 1) 0%,
+    rgba(151, 193, 169, 1) 100%
+  );
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.book {
+  margin: 20px auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 420px;
+}
+
+.book h3 {
+  margin: 0;
+}
+
+.book p {
+  margin: 5px 0;
+  word-wrap: break-word;
+}
+
+.book .status {
+  font-style: italic;
+}
+
+.book .delete-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  background-color: #9d579d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.book .delete-btn:hover {
+  background: rgb(151, 193, 169);
+  background: radial-gradient(
+    circle,
+    rgba(151, 193, 169, 1) 0%,
+    rgba(157, 87, 157, 1) 100%
+  );
+  cursor: pointer;
+}
+
+.book .edit-btn {
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  padding: 5px;
+  background-color: #97c1a9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.book .edit-btn:hover {
+  background: rgb(151, 193, 169);
+  background: radial-gradient(
+    circle,
+    rgba(157, 87, 157, 1) 0%,
+    rgba(151, 193, 169, 1) 100%
+  );
+  cursor: pointer;
+}
