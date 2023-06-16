@@ -87,6 +87,7 @@ form button:hover {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
   position: relative;
   width: 420px;
+  font-family: "Source Sans 3";
 }
 
 .book h3 {
@@ -99,7 +100,7 @@ form button:hover {
 }
 
 .book .status {
-  font-style: italic;
+  font-style: normal;
 }
 
 .book .delete-btn {
