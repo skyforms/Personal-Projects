@@ -1,0 +1,109 @@
+/*CSS Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  background-color: #e9d6b8;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  font-style: italic;
+  color: #415927;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  display: block;
+}
+
+nav {
+  padding: 0.8rem;
+  margin-bottom: 2rem;
+  font-size: 0.8em;
+  color: #415927;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav .nav {
+  display: inline;
+  list-style: none;
+  margin: 0.5rem;
+}
+
+nav,
+.nav,
+nav ul {
+  background-color: #415927;
+  color: #e9d6b8;
+}
+
+nav .buy-now-button {
+  border: none;
+  padding: 0.5em;
+  border-radius: 15px;
+  background-color: #766153;
+  color: #e9d6b8;
+  font-size: 0.9em;
+}
+
+#product-description,
+#closing-copy {
+  text-align: center;
+}
+
+#product-name ~ #tagline {
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+}
+
+#why-choose-blissful {
+  margin-top: 2rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+#why-choose-blissful .card {
+  display: inline-block;
+  vertical-align: top;
+  min-height: 120px;
+  width: 30%;
+  margin: 0.5rem;
+}
+
+#closing {
+  margin-bottom: 2rem;
+}
+
+#closing .buy-now-button {
+  display: block;
+  border: none;
+  border-radius: 5em;
+  padding: 0.5em;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #766153;
+  color: #e9d6b8;
+  font-size: 3em;
+  text-align: center;
+}
+
+#closing .buy-now-button:hover {
+  background: rgb(118, 97, 83);
+  background: radial-gradient(
+    circle,
+    rgba(118, 97, 83, 1) 0%,
+    rgba(233, 214, 184, 1) 100%
+  );
+  transition: all 5s ease-in;
+}
