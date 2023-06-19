@@ -15,11 +15,12 @@ header {
   font-size: 1rem;
   font-family: "Press Start 2P", sans-serif;
   text-transform: lowercase;
+  padding-bottom: 0.5rem;
 }
 
 header,
 form {
-  min-height: 20vh;
+  min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,6 +28,7 @@ form {
 
 form input,
 form button {
+  margin-top: 0.5rem;
   padding: 0.5rem;
   font-size: 1.5rem;
   border: none;
