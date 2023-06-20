@@ -26,6 +26,9 @@ nav {
   margin-bottom: 2rem;
   font-size: 0.8em;
   color: #415927;
+  text-align: right;
+  position: sticky;
+  top: 0px;
 }
 
 nav ul {
