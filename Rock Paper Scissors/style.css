@@ -1,0 +1,43 @@
+body {
+  font-family: "VT323", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(././images/background.png);
+  background-size: cover;
+}
+
+.rock-paper-scissors {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+h2 {
+  letter-spacing: 4px;
+  font-size: 50px;
+  color: #000;
+}
+
+
+
+button {
+  background-color: rgb(93, 243, 250);
+  border: 5px;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid rgb(49, 131, 245);
+  color: rgb(49, 131, 245);
+  font-family: inherit;
+}
+
+button:hover {
+  background-color: rgb(49, 131, 245);
+  color: rgb(93, 243, 250);
+}
