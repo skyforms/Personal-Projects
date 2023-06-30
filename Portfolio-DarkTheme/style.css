@@ -107,6 +107,10 @@ footer {
   background: #d0e3c4;
 }
 
+.bg-lavender {
+  background: #ad9baa;
+}
+
 .divider {
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   width: 100%;
